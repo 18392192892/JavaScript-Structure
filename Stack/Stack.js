@@ -86,9 +86,14 @@ const Stack = (function () {
 		print () {
 			console.log(_item.get(this));
 		}
+		// 返回栈的数组
+		returnArr () {
+			return _item.get(this);
+		}
 	}
 	return Stack;
 })();
+
 
 // 输出建栈方法
 module.exports = Stack;
