@@ -72,7 +72,7 @@ const Stack = (function () {
 		}
 		// 判断栈是否为空
 		isEmpty () {
-			return _item.get(this).length === 0 ? true : false;
+			return _item.get(this).length === 0;
 		}
 		// 移除栈中所有元素
 		clear () {
@@ -93,7 +93,6 @@ const Stack = (function () {
 	}
 	return Stack;
 })();
-
 
 // 输出建栈方法
 module.exports = Stack;
