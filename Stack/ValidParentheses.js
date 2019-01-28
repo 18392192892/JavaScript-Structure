@@ -25,9 +25,9 @@ function ValidParentheses(string) {
       }
     }
   }
-  return inStack.isEmpty() ? true : false;
+  return inStack.isEmpty();
 }
 
-console.log(ValidParentheses('((){}[]')); // true
+console.log(ValidParentheses('{}[]')); // true
 
 
