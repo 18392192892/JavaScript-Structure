@@ -23,7 +23,3 @@ function hotPotato(name, num) {
 
 let Winer = hotPotato(['zhao', 'li', 'han', 'zhang', 'wang'], 7);
 console.log(Winer); // zhao
-
-let b = new Array(3);
-b.push(12);
-console.log(b);
