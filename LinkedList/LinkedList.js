@@ -19,8 +19,8 @@ const LinkedList = (function() {
       });
     }
     // 在尾部添加节点
-    append () {
-
+    append (element) {
+      
     }
   }
 })
